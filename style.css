@@ -1,0 +1,284 @@
+body{
+    padding: 0;
+    margin: 0;
+/* background: lightgray; */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none
+}
+
+ul, li, h1, h2, h3, h4, h5{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* --------------- /NavBar/-------------- */
+
+.navBar{
+    background: black;
+    color: white;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    text-align: center;
+    /* background-image: linear-gradient(to right, rgba(12, 11, 11, 0), rgb(204, 201, 201)); */
+}
+
+
+.logPic{
+    margin: 20px auto;
+    font-family: 'Fredericka the Great', cursive;
+    position: relative;
+}
+/* .topLogoText{
+    position: absolute;
+    top: 0;
+} */
+
+.navLogo{
+    width: 100px;
+    height: 225px;
+}
+    .navLogo:hover{
+        transform: scaleX(-1);
+    }
+
+.navLinks{
+    font-family: 'Yeseva One', cursive;
+
+    margin-top: 40px;
+    font-size: 23px;
+    line-height: 1.0;
+}
+
+.links:hover{
+    color: green;
+    /* background: white; */
+    cursor: pointer;
+    
+}
+
+.contLinks{
+    margin-top: 40px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.orderOnlineBtn{
+    border: none;
+    font-size: 20px;
+
+}
+.orderOnlineBtn:hover{
+    color: green;
+}
+
+
+.orderIcons{
+    width: 60px;
+}
+
+.grubHub{
+    transition: transform .2s; 
+    margin: 0 10px 10px 10px;    
+}
+
+.grubHub:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.doorDashIcon{
+    border-radius: 10px;
+    transition: transform .2s; 
+    margin: 0 10px 10px 10px;
+    
+}
+
+.doorDashIcon:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.socialMedia{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+   
+}
+
+.socialMediaPics{
+    width: 30px;
+    margin: 10px;
+}
+
+.chat{
+    transition: transform .2s;
+}
+    .chat:hover{
+        -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+    }
+
+
+.twitter{
+    transition: transform .2s;
+}  
+    .twitter:hover{
+        -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+    }
+
+
+.insta{
+    transition: transform .2s;
+}  
+    .insta:hover{
+        -ms-transform: scale(1.2s); /* IE 9 */
+    -webkit-transform: scale(1.2s); /* Safari 3-8 */
+    transform: scale(1.2);
+    }
+
+.navAddress{
+    font-family: 'Yeseva One', cursive;
+}
+/* --------------- /NavBar END/-------------- */
+
+.firstPage, .secondPage, .thirdPage{
+    position: relative; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin-left: 200px;
+}
+
+.firstPage{
+    background-image: url(./assets/sitesPics/TopSection/lavi-perchik-724455-unsplash.jpg);
+    /* background-image:  linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./assets/sitesPics/TopSection/lavi-perchik-724455-unsplash.jpg'); */
+    /* min-height: 100%; */
+
+}
+
+
+.sicilianPizzaImg{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+    will-change: transform;
+    transition: transform 1.3s cubic-bezier(0.19, 1, 0.22, 1);
+     
+}
+
+.scrollIcon{
+    color: white;
+    font-size: 20px;
+    font-family: 'Yeseva One', cursive;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.section{
+    padding: 100px 30px 100px 30px;
+    margin-left:  200px;   
+}
+
+    .sctText{
+        /* float: right; */
+    }
+
+
+.secondPage{
+    background-image: url(./assets/sitesPics/ScilianVsRegular/artesanal-pizza-cheese-close-up-1566837.jpg);
+}
+
+.siciImg{
+    transform: translateY(-5px);
+    position: absolute;
+    z-index: 1;
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgb(155, 153, 153);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+/*------------ MENU PAGE  -----------*/
+
+
+.menuPageDiv{
+    padding: 100px 40px 0 40px;
+}
+
+.menuLinks{
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+
+}
+
+.menu-links{
+    position: relative;
+    display: block;
+    font-size: 30px;
+    padding: 14px 30px 14px 0;
+    border-bottom: 2px solid black;
+
+}
+
+.menu-links::after{
+    content: "+";
+    right: 0px;
+    display: inline-block;
+    position: absolute;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.dropDownOptions{
+    display: block;
+
+}.itemDisrpt{
+    border: 1px solid black;
+    
+}
+
+.price{
+    border: 1px solid black;
+}
+
+.dropDownOptions ul li  {
+    padding: 0px 54px 0 0;
+    margin: 0 0 20px 0;
+    position: relative;
+    font-size: 18px;
+    /* line-height: 18px; */
+}
+
+.dropDownOptions ul li .price {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-family: 'Hagin caps', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
