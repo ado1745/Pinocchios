@@ -11,6 +11,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./scroll.css">
     <title>Pinocchio's</title>
 </head>
 
@@ -24,7 +25,7 @@
             <div class="bottomLogoText">Pizza's & Subs</div>
         </div>
         <div class="navLinks">
-            <a href="./menu.html">
+            <a href="#secondPage" class="menuPageNav">
                 <p class="links">Menu</p>
             </a>
             <p class="links">Directions</p>
@@ -68,113 +69,174 @@
                 Cambridge, MA 02138
             </p>
         </div>
-
-
     </div>
 
+    <div class="rightSideSite">
 
-    <div class="firstPage">
+        <div class="firstPage">
 
-        <div class="scrollIcon">
-            <span>SCROLL</span>
+            <div class="scroll-down">
+
+            </div>
         </div>
-    </div>
 
 
-    <section class="section section-light">
-        <div class="row">
+        <div class="section-light ">
+            <div class="row">
+                <div class="col-md-3">
+                </div>
 
+                <div class="col-md-9">
+                    <div class="sctText">
+                        <h3>Sicilian Pizza</h3>
+                        <p>
+                            Our Sicilian pizza is a deep-dish or thick-crust pizza. We sell them in a 9-slice or a
+                            15-slice
+                            size.
 
-            <div class="col-md-3">
-                <div class="sicilianPizzaImg" style="transform: translate3d(0px, 76.95px, 0px)">
-                    <img class="siciImg"
-                        src="./assets/sitesPics/ScilianVsRegular/20160503-spicy-spring-pizza-recipe-37-1500x1125.jpg"
-                        alt="">
+                            The 9-slice size is 16" x 16" and will feed anywhere from 3 to 5 people.
+                            The 15-slice size is 28" x 16", comes in 2 large pizza boxes and can feed 6 to 9 people.
+                        </p>
+                    </div>
                 </div>
             </div>
-
-            <div class="col-md-9">
-                <div class="sctText">
-                    <h3>Sicilian Pizza</h3>
-                    <p>
-                        Our Sicilian pizza is a deep-dish or thick-crust pizza. We sell them in a 9-slice or a 15-slice
-                        size.
-
-                        The 9-slice size is 16" x 16" and will feed anywhere from 3 to 5 people.
-                        The 15-slice size is 28" x 16", comes in 2 large pizza boxes and can feed 6 to 9 people.
-                    </p>
-                </div>
-            </div>
-
         </div>
-    </section>
 
-    <div class="secondPage">
+        <div class="secondPage">
+            <div class="row menuPageDiv">
+                <div class="col-md-6">
+                    <ul class="menuLinks">
+                        <li>
+                            <a href="#" class="menu-links a-1">Regualr Pizza</a>
+                            <div class="regularPizzaDrop Options">
+                                <ul>
+                                    <li>
+                                        <h3 class="itemsDescription">Cheese</h3>
+                                        <p class="price">12.<sup>20</sup></p>
 
-        <div class="row menuPageDiv">
-            <div class="col-md-6">
-                <ul class="menuLinks">
-                    <li>
-                        <a href="#" class="menu-links">Regualr Pizza</a>
-                        <div class="dropDownOptions">
-                            <ul>
-                                <li>
-                                    <h3 class="itemDisrpt">Test</h3>
-                                    <p class="price">7 <sup>45</sup></p>
-                                </li>
-                                <li>
-                                    <h3 class="itemDisrpt">Test</h3>
-                                    <p class="price">7 <sup>45</sup></p>
-                                </li>
-                                <li>
-                                    <p class="itemDisrpt">Test</p>
-                                    <p class="price">7 <sup>45</sup></p>
-                                </li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                        </div>
-                    </li>
+                                    </li>
+                                    <li>
+                                        <h3 class=" itemsDescription">1 Topping</h3>
+                                        <p class="price">13.<sup>20</sup></p>
+                                    </li>
+                                    <li>
+                                        <h3 class="itemsDescription">2 Toppings</h3>
+                                        <p class="price">14.<sup>70</sup></p>
+                                    </li>
 
-                    <li><a href="#" class="menu-links">Sicilian Pizza</a></li>
-                    <li><a href="#" class="menu-links">Subs</a></li>
-                    <li><a href="#" class="menu-links">Pasta</a></li>
-                    <li><a href="#" class="menu-links">Salads</a></li>
-                    <li><a href="#" class="menu-links">Dinner Platters</a></li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <div class="carwithPics">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/menuPageCaruselPics/photo-1490717064594-3bd2c4081693.jpeg"
-                                    class="d-block w-100" alt="...">
+                                    <li>
+                                        <h3 class="itemsDescription">3 Toppings</h3>
+                                        <p class="price">15.<sup>70</sup></p>
+                                    </li>
+                                    <li>
+                                        <h3 class="itemsDescription">Special</h3>
+                                        <p class="price">17.<sup>25</sup></p>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="carousel-item">
-                                <img src="./assets/menuPageCaruselPics/photo-1509722747041-616f39b57569.jpeg"
-                                    class="d-block w-100" alt="...">
+                        </li>
+
+
+                        <li>
+                            <a href="#" class="menu-links a-2">Sicilian Pizza </a>
+                            <div class="sicilianPizzaDrop Options">
+                                <ul>
+                                    <li>
+                                        <h3 class="itemsDescription">Cheese</h3>
+                                        <p class="price topItem">12.<sup>20</sup></p>
+
+                                    </li>
+                                    <li>
+                                        <h3 class=" itemsDescription">1 Topping</h3>
+                                        <p class="price">13.<sup>20</sup></p>
+                                    </li>
+                                    <li>
+                                        <h3 class="itemsDescription">2 Toppings</h3>
+                                        <p class="price">14.<sup>70</sup></p>
+                                    </li>
+
+                                    <li>
+                                        <h3 class="itemsDescription">3 Toppings</h3>
+                                        <p class="price">15.<sup>70</sup></p>
+                                    </li>
+                                    <li>
+                                        <h3 class="itemsDescription">Special</h3>
+                                        <p class="price">17.<sup>25</sup></p>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="carousel-item">
-                                <img src="./assets/menuPageCaruselPics/photo-1512621776951-a57141f2eefd.jpeg"
-                                    class="d-block w-100" alt="...">
+
+                        </li>
+
+                        <li>
+                            <a href="#" class="menu-links a-3">Subs</a>
+                            <div class="subs Options">
+                                <ul>
+                                    <li>
+                                        <h3 class="itemsDescription">Cheese</h3>
+                                        <p class="price topItem">12.<sup>20</sup></p>
+
+                                    </li>
+                                    <li>
+                                        <h3 class=" itemsDescription">Italian</h3>
+                                        <p class="price">13.<sup>20</sup></p>
+                                    </li>
+                                    <li>
+                                        <h3 class="itemsDescription">Ham + Cheese</h3>
+                                        <p class="price">14.<sup>70</sup></p>
+                                    </li>
+
+
+                                </ul>
                             </div>
-                            <div class="carousel-item">
-                                <img src="./assets/menuPageCaruselPics/photo-1542834369-f10ebf06d3e0.jpeg"
-                                    class="d-block w-100" alt="...">
+                        </li>
+                        <li><a href="#" class="menu-links a-4">Pasta</a></li>
+                        <li><a href="#" class="menu-links a-5">Salads</a></li>
+                        <li><a href="#" class="menu-links a-6">Dinner Platters</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="carwithPics">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assets/menuPageCaruselPics/photo-1490717064594-3bd2c4081693.jpeg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/menuPageCaruselPics/photo-1509722747041-616f39b57569.jpeg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/menuPageCaruselPics/photo-1512621776951-a57141f2eefd.jpeg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/menuPageCaruselPics/photo-1542834369-f10ebf06d3e0.jpeg"
+                                        class="d-block w-100" alt="...">
+                                </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="toppings">
+                        <h5>Toppings Options:</h5>
+                        <p>Pepperoni, Sausage, Mushrooms, Onions, Ham, Canadian Bacon, Pineapple, Eggplant, Tomato &
+                            Basil,Green, Peppers, Hamburger, Spinach, Artichoke, Buffalo Chicken, Barbecue Chicken,
+                            Anchovies, Black Olives, Fresh Garlic, Zucchini</p>
+                    </div>
                 </div>
-
-                <div class="toppings"></div>
             </div>
+
+
         </div>
-
-
     </div>
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
