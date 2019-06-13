@@ -1,28 +1,28 @@
 $(".a-1").on('click', function (e) {
     e.preventDefault();
-    $(".regularPizzaDrop").toggle();
+    $(".regularPizzaDrop").slideToggle();
 });
 $(".a-2").on('click', function (e) {
     e.preventDefault();
-    $(".sicilianPizzaDrop").toggle();
+    $(".sicilianPizzaDrop").slideToggle();
 });
 $(".a-3").on('click', function (e) {
     e.preventDefault();
-    $(".subs").toggle();
+    $(".subs").slideToggle();
 });
 
 $(".a-4").on('click', function (e) {
     e.preventDefault();
-    $(".dropDownOptions").toggle();
+    $(".pasta").slideToggle();
 });
 
 $(".a-5").on('click', function (e) {
     e.preventDefault();
-    $(".dropDownOptions").toggle();
+    $(".salad").slideToggle();
 });
 $(".a-6").on('click', function (e) {
     e.preventDefault();
-    $(".dropDownOptions").toggle();
+    $(".dinner").slideToggle();
 });
 
 

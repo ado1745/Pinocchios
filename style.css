@@ -155,7 +155,7 @@ ul, li, h1, h2, h3, h4, h5{
 
 
 
-.firstPage{
+#mainPage{
     background-image: url(./assets/sitesPics/TopSection/lavi-perchik-724455-unsplash.jpg);
     margin-left: 200px;
     position: relative; 
@@ -167,49 +167,42 @@ ul, li, h1, h2, h3, h4, h5{
   
 }
 
-
-.secondPage{
+#SicVsReg{
     margin-left: 200px;
-}
-
-
-
-.scrollIcon{
-    color: white;
-    font-size: 20px;
-    font-family: 'Yeseva One', cursive;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-
-/* .section{
-    padding: 100px 30px 100px 30px;
-    margin-left:  200px;   
-} */
-
-
-
-
-
-.siciImg{
-    transform: translateY(-5px);
-    position: absolute;
-    z-index: 1;
-    width: 400px;
     height: 500px;
-    border: 2px solid rgb(155, 153, 153);
-    padding: 4px;
-    border-radius: 5px;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
 }
+
 
 /*------------ MENU PAGE  -----------*/
+#menuPage{
+    margin-left: 200px;
+    min-height: 100vh;
+    border-bottom: 2px solid black;
+}
 
+.optionsSize>p{
+    display: block;
+}
+    .firstRowSmall{
+     
+        position: absolute;
+        right: 8%;
+        top: 0px;
+        line-height: 32px;
+        font-weight: bold;
+    }
+    .secondRowLarger{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        line-height: 32px;
+        font-weight: bold;
+    }
 
 .menuPageDiv{
-    padding: 100px 40px 0 40px;
+    padding: 40px 40px 0 40px;
 }
 
 .menuLinks{
@@ -218,7 +211,6 @@ ul, li, h1, h2, h3, h4, h5{
     border-radius: 8px;
 
 }
-
 .menu-links{
     color: black;
     position: relative;
@@ -228,8 +220,6 @@ ul, li, h1, h2, h3, h4, h5{
     border-bottom: 2px solid black;
     font-weight: bold;
     font-family: 'Yeseva One', cursive;
-  
-
 }
     .menu-links:hover{
         color: green;
@@ -240,36 +230,64 @@ ul, li, h1, h2, h3, h4, h5{
         right: 0px;
         display: inline-block;
         position: absolute;
-        font-weight: bold;
-        font-size: 30px;
-        font-family: 'Yeseva One', cursive;
+        /* font-weight: 700;
+        font-size: 30px; */
+        /* font-family: 'Yeseva One', cursive; */
     }
 
 .Options{
     display: none;
     margin-top: 10px;
 }
-
-
-
-.Options ul li {
-    padding: 0px 54px 0 0;
-    margin: 0 0 20px 0;
-    position: relative;
-    font-size: 18px;
-    line-height: 18px;
-    /* line-height: 18px; */
-}
-
-.Options ul li .price  {
-    position: absolute;
-    right: 0px;
-    top: 0px;
+    .topItems{
+        border: 1px solid black;
+    }
+    .Options ul li {
+        margin: 0 0 20px 0;
+        position: relative;
+        line-height: 18px;
     
-    line-height: 32px;
-    font-weight: bold;
-    
-}
+    }
+    .priceFirstRow{
+        position: absolute;
+        right: 8%;
+        top: 0px;
+        line-height: 32px;
+        font-weight: bold;
+    }
+        /* .TopItemSmall{
+        padding-top: 20px;
+        }
+        .TopItemSmall::before{
+            content: "Small";
+            position: relative;
+            top: -30px;
+            left: 35px;
+
+            font-size: 14px;
+        } */
+    .priceSecondRow {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        line-height: 32px;
+        font-weight: bold;
+    }
+        /* .TopItemSmallLarge{
+        padding-top: 20px;
+
+        }
+        .TopItemSmallLarge::before{
+            content: "Large";
+            position: relative;
+            top: -30px;
+            left: 35px;
+            font-size: 14px;
+        } */
+    .itemsDescription{
+        font-size: 20px;
+        line-height: 15px;
+    }
 
 
 .carwithPics{
@@ -281,3 +299,41 @@ ul, li, h1, h2, h3, h4, h5{
     margin-top: 20px;
     text-align: center;
 }
+/*------------ MENU END  -----------*/
+
+
+
+
+/* ------------Photo Page ----------------- */
+#photosPage{
+    min-height: 100vh;
+    margin-left: 200px;
+}
+/* ------------Photo END ----------------- */
+
+
+
+
+
+/* ------------Contact Page ----------------- */
+
+#contactUsPage{
+    min-height: 100vh;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+/* ------------Contact END ----------------- */
+
+
+
+
+/* ------------Footer Page ----------------- */
+footer{
+    margin-left: 200px;
+    padding: 5px;
+    /* width: 100%; */
+    background: black;
+    color: white;
+    text-align: center;
+}
+/* ------------Footer END ----------------- */
