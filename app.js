@@ -36,3 +36,8 @@ $(".menuPageNav").on('click', function () {
 $('.carousel').carousel({
     interval: 4000
 })
+
+
+let userReviews = [
+
+]

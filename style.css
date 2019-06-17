@@ -10,6 +10,7 @@ html{
 
 body{
     margin: 0 0 20px;
+    /* line-height: 18px; */
 }
 
 a {
@@ -21,7 +22,7 @@ a:hover{
     text-decoration: none
 }
 
-ul, li, h1, h2, h3, h4, h5{
+ul, li, h1, h2, h3, h4, h5, p{
     list-style: none;
     padding: 0;
     margin: 0;
@@ -225,25 +226,20 @@ ul, li, h1, h2, h3, h4, h5{
     font-family: 'Yeseva One', cursive;
 
 }
-
-.optionsSize>p{
-    display: block;
-}
     .firstRowSmall{
-     
         position: absolute;
         right: 8%;
-        top: 0px;
+        top: -25px;
         line-height: 32px;
         font-weight: bold;
     }
     .secondRowLarger{
         position: absolute;
         right: 0px;
-        top: 0px;
+        top: -25px;
         line-height: 32px;
         font-weight: bold;
-    }
+    } 
 
 .menuPageDiv{
     padding: 40px 40px 0 40px;
@@ -279,11 +275,12 @@ ul, li, h1, h2, h3, h4, h5{
 
 .Options{
     display: none;
-    margin-top: 10px;
+    margin-top: 25px;
+    font-family: 'Lora', serif;
 }
    
     .Options ul li {
-        margin: 0 0 20px 0;
+        margin-bottom: 15px;
         position: relative;
         line-height: 18px;
     
@@ -307,23 +304,42 @@ ul, li, h1, h2, h3, h4, h5{
     .itemsDescription{
         font-size: 20px;
         line-height: 15px;
+        font-weight: 600;
     }
 
+    .addOns{
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .sticky{
+        top: 10px;
+        position: sticky;
+        margin-bottom: 15px;
+    }
 
 .carwithPics{
-    /* width: 500px; */
-    
+    /* top: 10px;
+    position: sticky;
+    position: -webkit-sticky; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
+
+
 .d-block{
+    
     width: 500px;
     height: 500px;
 }
 
 .toppings{
+    /* top: 520px;
+    position: sticky;
+    position: -webkit-sticky; */
     margin-top: 20px;
     text-align: center;
+    font-family: 'Lora', serif;
 }
 /* ------------ MENU Page --------- */
 
@@ -371,8 +387,12 @@ ul, li, h1, h2, h3, h4, h5{
 
 /* Section */
 #section3{
-    background-image: url(./assets/sitesPics/TopSection/lavi-perchik-724455-unsplash.jpg);
-    min-height: 500px;
+    background-image: url(./assets/photoDiv/harvardWall.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 200px;
     background-attachment: fixed;
 }
 
@@ -380,58 +400,67 @@ ul, li, h1, h2, h3, h4, h5{
 
 /* ------------Contact Page ----------------- */
 #contactUsPage{
-    min-height: 100vh;
+    min-height: 80vh;
     position: relative;
     border-top: 3px solid lightgray;
+    }
+
     
-    }
 
-   
+        .hours, .directions, .google-maps, .contPic{
+            padding: 20px;
+        } 
 
-    .test{
-        border: 2px solid red;
-        padding: 20px;
-    }
 
      .contPic{
-            width: 95%;
-            height: 485px;
-            position: absolute;
-            border-radius: 5px;
+            float: left;
+            width: 350px;
+            height: 270px;
+            /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5); */
         }
-
-   
-     
-        
+ 
     .hours{
         border-radius: 5px;
-        width: 90%;
+        
+        text-align: center;
+       
         }
 
-        .test1{
-            border: 2px solid green;
-            padding: 20px;
-        }
 
     .contHeaders{
         font-family: 'Fredericka the Great', cursive; 
         font-weight: bold; 
         }
 
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        font-family: 'Lora', serif;
+    }
+
     table tr th{
             font-weight: normal;
+            /* text-align: center; */
+
+            
         }
 
     .directions{
-            margin-top: 20px;
+            margin-top: 10px;
+            line-height: 28px;
+            text-align: center;
+            font-family: 'Lora', serif;
         }
 
     .google-maps iframe{
-            margin-top: 20px;
-            height: 400px;
-            width: 100%;
-            border: none;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+        position: absolute;
+        bottom: 30px;
+        left: 10%;
+        height: 150px;
+        width: 80%;
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
             
         }
     /* ------------Contact END ----------------- */
